@@ -1,0 +1,5 @@
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Domain\bin\Debug\FinalProject.Domain.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Domain\bin\Debug\FinalProject.Domain.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Domain\obj\Debug\FinalProject.Domain.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Domain\obj\Debug\FinalProject.Domain.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Domain\obj\Debug\FinalProject.Domain.csprojResolveAssemblyReference.cache

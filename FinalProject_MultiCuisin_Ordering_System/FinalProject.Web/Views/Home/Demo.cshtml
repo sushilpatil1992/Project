@@ -1,0 +1,8 @@
+﻿<a href="@Url.Action("Notification","Home")" data-role="button" data-icon="home">
+    @if (ViewBag.Count != 0)
+    {
+        <span class="badge progress-bar-danger">
+            @ViewBag.Count
+        </span>
+    }
+    </a>

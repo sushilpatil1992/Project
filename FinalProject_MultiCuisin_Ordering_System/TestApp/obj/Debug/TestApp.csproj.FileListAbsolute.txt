@@ -1,0 +1,16 @@
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\Test.mdf
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\Test_log.ldf
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\TestApp.exe.config
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\TestApp.exe
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\TestApp.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\FinalProject.Data.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\FinalProject.Domain.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\FinalProject.Service.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\SqlHelperLibrary.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\FinalProject.Data.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\FinalProject.Domain.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\FinalProject.Service.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\bin\Debug\SqlHelperLibrary.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\obj\Debug\TestApp.exe
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\TestApp\obj\Debug\TestApp.pdb
