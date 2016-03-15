@@ -34,31 +34,7 @@ namespace FinalProject.Web.Controllers
             }
             return View(p);
         }
-        [HttpPost]
-        public ActionResult Index(HttpPostedFileBase file, Product product)
-        {
-            if (file != null && file.ContentLength > 0)
-                try
-                {
-                    //IProductRepository dal = new ProductDalRepository();
-                    //IProductService productService = new ProductService();
-                    string path = Path.Combine(Server.MapPath("~/Images"),
-                                               Path.GetFileName(file.FileName));
-                    file.SaveAs(path);
-                    product.ImageUrl = path;      
-                   
-                }
-                catch (Exception ex)
-                {
-                    ViewBag.Message = "ERROR:" + ex.Message.ToString();
-                }
-            else
-            {
-                ViewBag.Message = "You have not specified a file.";
-            }
-
-            return View();
-        }
+        
 
         public ActionResult About()
         {            
