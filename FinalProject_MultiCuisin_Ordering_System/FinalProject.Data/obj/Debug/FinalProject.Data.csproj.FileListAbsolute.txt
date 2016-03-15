@@ -1,0 +1,9 @@
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\bin\Debug\FinalProject.Data.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\bin\Debug\FinalProject.Data.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\bin\Debug\FinalProject.Domain.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\bin\Debug\SqlHelperLibrary.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\bin\Debug\FinalProject.Domain.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\bin\Debug\SqlHelperLibrary.pdb
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\obj\Debug\FinalProject.Data.csprojResolveAssemblyReference.cache
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\obj\Debug\FinalProject.Data.dll
+E:\Dac\Project\FinalProject_MultiCuisin_Ordering_System\FinalProject.Data\obj\Debug\FinalProject.Data.pdb

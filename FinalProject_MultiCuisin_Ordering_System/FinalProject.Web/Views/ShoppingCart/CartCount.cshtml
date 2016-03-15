@@ -1,0 +1,12 @@
+﻿<a href="@Url.Action("Index","ShoppingCart")" data-icon="home" class="badge active" >
+    
+    @if (ViewBag.Count != 0)
+    {
+        <span class="badge progress-bar-danger">
+            @ViewBag.Count
+        </span>
+    }
+    <span class="badge" >
+        <img src="~/Images/cart.png" width="30px" height="30px" />
+    </span>
+</a>

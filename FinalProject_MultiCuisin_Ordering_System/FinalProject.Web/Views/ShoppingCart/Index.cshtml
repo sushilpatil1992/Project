@@ -1,0 +1,69 @@
+﻿@model IEnumerable<FinalProject.Domain.Model.OrderDetails>
+
+@{
+    ViewBag.Title = "Shopping Cart";
+    int index = 0;
+}
+
+<h2>Shopping Cart</h2>
+
+<p>
+    @Html.ActionLink("Product Catelog", "Index", "Home")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        @ViewBag.Message
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @using (Html.BeginForm("UpdateItemQtyInCart", "ShoppingCart"))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.Hidden("frmIndex", index.ToString())
+                    @Html.Hidden("productPrice",item.Price)
+                    @Html.EditorFor(modelItem => item.Quantity, new { htmlAttributes = new { @class = "form-control", @type = "number", @style = "width:75px" } }) 
+                    <input type="submit" value="Update" class="btn btn-default" />
+                    @Html.ValidationMessageFor(modelItem => item.Quantity, "", new { @class = "text-danger" })
+                }
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.ActionLink("View", "Details", "Product", new { id = item.ProductId }, null) |
+                @Html.ActionLink("Remove", "RemoveItemFromCart", new { index = index }, null)
+            </td>
+
+        </tr>
+                index++;
+    }
+    <tr>
+        <td colspan="4" style="text-align:right">
+            <h3>Total: @String.Format("₹. {0:N2}", ViewBag.Total)</h3>
+            @Html.ActionLink("Place Order...", "Index", "Order", null, new { @class = "btn btn-primary" })
+        </td>
+    </tr>
+</table>
